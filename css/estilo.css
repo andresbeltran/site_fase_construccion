@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #FFFFFF;
+}
+header{
+	background: #004669;
+	display:block;
+	text-align:center;
+}
+/* CSS PARA MENU Inicio */
+#menu ul {
+	float: left;
+	left: 50%;
+	list-style-type: none;
+	position: relative;
+}
+#menu ul li {
+	float: left;
+	right: 50%;
+	background-color:#2e518b;
+}
+#menu ul a {
+	 display:block;
+	 color:#fff;
+	 text-decoration:none;
+	 font-weight:400;
+	 font-size:15px;
+	 padding:10px;
+	 font-family: Helvetica, Arial, sans-serif;
+	 text-transform:uppercase;
+	 letter-spacing:1px;
+}
+#menu ul li {
+ float:left;
+ margin:0;
+ padding:0;
+}
+#menu ul li:hover {
+ background:#5b78a7;
+}
+/* CSS Menu desplegable Inicio */
+#menu ul li {
+    background-color:#FFFFFF;
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+		background: #FFFFFF;
+}
+#menu ul a {
+    display:block;
+    color:#004669;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family: Helvetica, Arial, sans-serif;
+	  text-transform:uppercase;
+	  letter-spacing:1px;
+}
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#menu ul li:hover {
+    background:#5b78a7;
+}
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+#menu ul ul li {
+    float:none;
+    width:150px
+}
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+#menu ul li:hover > ul {
+    display:block;
+}
+/* CSS Menu desplegable Final */
+/* CSS Aside Twitter */
+aside{
+	position: fixed;
+  top: 110px;
+  bottom: 120px;
+  right: 0;
+  width: 400px;
+  background-color: white;
+	float: right;
+	width: 250px;
+	background:#B3B3B3;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.widget h2{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #004669;
+	color: #FFFFFF;
+	text-align: center;
+}
+/* CSS Aside Twitter*/
+/* CSS Objetivo + aside Inicio */
+#contenido{
+	position: fixed;
+	float: left;
+	top: 423px;
+	left: 15px;
+	width: 500px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido{
+	float: left;
+	width: 450px;
+	background: #B3B3B3;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido_2{
+	position: fixed;
+	float: left;
+	top: 423px;
+	left: 530px;
+	width: 230px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido_2{
+	float: left;
+	width: 260px;
+	background: #B3B3B3;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido_3{
+	position: fixed;
+	float: left;
+	top: 423px;
+	left: 850px;
+	width: 230px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido_3{
+	float: left;
+	width: 260px;
+	background: #B3B3B3;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#contenido_4{
+	position: fixed;
+	float: left;
+	top: -10px;
+	left: 30px;
+	width: 230px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.objetivo{
+  margin: 10px;
+	background-color: #004669;
+	border-radius: 5px;
+}
+.objetivo h2{
+  font-size: 18px;
+  padding: 5px;
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  font-family: arial;
+}
+.objetivo  p{
+  margin-bottom: 5px;
+  margin-top: :6px;
+  font-family: arial;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.contador{
+  margin: 10px;
+	background-color: #004669;
+	border-radius: 5px;
+}
+.contador h2{
+  font-size: 18px;
+	text-align: center;
+  padding: 5px;
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  font-family: arial;
+}
+
+#sfc5azjuhhkdh1mwrqe8h6au24kuuf1ed4p{
+	text-align: center;
+}
+
+footer{
+	height: 40px;
+	background: #005883;
+	color: #FFFFFF;
+	clear: both;
+}
+footer{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+}
